@@ -6,7 +6,7 @@
 
 [![Arxiv](https://img.shields.io/badge/ArXiv-2511.18922-b31b1b.svg)](https://arxiv.org/abs/2511.18922)
 [![Paper](https://img.shields.io/badge/PDF-Read%20Paper-red)](https://arxiv.org/pdf/2511.18922)
-[![Hugging Face](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Paper-yellow)](https://huggingface.co/)
+[![Hugging Face](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Paper-yellow)](https://huggingface.co/papers/2511.18922)
 [![Website](https://img.shields.io/badge/Project-Website-blue)](https://mizhenxing.github.io/One4D/)
 
 <div align="center">
