@@ -37,154 +37,41 @@
 </div>
 
 *Figure 2: Comparison of Decoupled LoRA Control against other architectures.*
+
 ## 🎨 Results Showcase
 
 ### 1. Single Image to 4D
 Generating a consistent 4D scene from a single input image, ensuring high-quality RGB frames and consistent geometry for the entire 4D output.
 
-<table width="100%">
-  <tr>
-    <td width="50%">
-      <div align="center">
-        <video src="https://raw.githubusercontent.com/MiZhenxing/MiZhenxing.github.io/main/One4D/assets/videos/cut_2.mp4" autoplay loop muted playsinline></video>
-        <br>
-        <strong>Example 1</strong>
-      </div>
-    </td>
-    <td width="50%">
-      <div align="center">
-        <video src="https://raw.githubusercontent.com/MiZhenxing/MiZhenxing.github.io/main/One4D/assets/videos/cut_6.mp4" autoplay loop muted playsinline></video>
-        <br>
-        <strong>Example 2</strong>
-      </div>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%">
-      <div align="center">
-        <video src="https://raw.githubusercontent.com/MiZhenxing/MiZhenxing.github.io/main/One4D/assets/videos/cut_3.mp4" autoplay loop muted playsinline></video>
-        <br>
-        <strong>Example 3</strong>
-      </div>
-    </td>
-    <td width="50%">
-      <div align="center">
-        <video src="https://raw.githubusercontent.com/MiZhenxing/MiZhenxing.github.io/main/One4D/assets/videos/cut_4.mp4" autoplay loop muted playsinline></video>
-        <br>
-        <strong>Example 4</strong>
-      </div>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%">
-      <div align="center">
-        <video src="https://raw.githubusercontent.com/MiZhenxing/MiZhenxing.github.io/main/One4D/assets/videos/cut_5.mp4" autoplay loop muted playsinline></video>
-        <br>
-        <strong>Example 5</strong>
-      </div>
-    </td>
-    <td width="50%">
-      </td>
-  </tr>
-</table>
+<div align="center">
+  <video src="https://raw.githubusercontent.com/MiZhenxing/MiZhenxing.github.io/main/One4D/assets/videos/cut_2.mp4" width="48%" autoplay loop muted playsinline></video>
+  <video src="https://raw.githubusercontent.com/MiZhenxing/MiZhenxing.github.io/main/One4D/assets/videos/cut_6.mp4" width="48%" autoplay loop muted playsinline></video>
+  <video src="https://raw.githubusercontent.com/MiZhenxing/MiZhenxing.github.io/main/One4D/assets/videos/cut_3.mp4" width="48%" autoplay loop muted playsinline></video>
+  <video src="https://raw.githubusercontent.com/MiZhenxing/MiZhenxing.github.io/main/One4D/assets/videos/cut_4.mp4" width="48%" autoplay loop muted playsinline></video>
+  <video src="https://raw.githubusercontent.com/MiZhenxing/MiZhenxing.github.io/main/One4D/assets/videos/cut_5.mp4" width="48%" autoplay loop muted playsinline></video>
+</div>
 
 ### 2. Sparse Frames to 4D
 Reconstructing the 4D scene given only a few sparse frames. One4D interpolates the missing information utilizing Unified Masked Conditioning.
 
-<table width="100%">
-  <tr>
-    <td width="50%">
-      <div align="center">
-        <video src="https://raw.githubusercontent.com/MiZhenxing/MiZhenxing.github.io/main/One4D/assets/videos/cut_7.mp4" autoplay loop muted playsinline></video>
-        <br>
-        <strong>Example 1</strong>
-      </div>
-    </td>
-    <td width="50%">
-      <div align="center">
-        <video src="https://raw.githubusercontent.com/MiZhenxing/MiZhenxing.github.io/main/One4D/assets/videos/cut_8.mp4" autoplay loop muted playsinline></video>
-        <br>
-        <strong>Example 2</strong>
-      </div>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%">
-      <div align="center">
-        <video src="https://raw.githubusercontent.com/MiZhenxing/MiZhenxing.github.io/main/One4D/assets/videos/cut_11.mp4" autoplay loop muted playsinline></video>
-        <br>
-        <strong>Example 3</strong>
-      </div>
-    </td>
-    <td width="50%">
-      <div align="center">
-        <video src="https://raw.githubusercontent.com/MiZhenxing/MiZhenxing.github.io/main/One4D/assets/videos/cut_12.mp4" autoplay loop muted playsinline></video>
-        <br>
-        <strong>Example 4</strong>
-      </div>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%">
-      <div align="center">
-        <video src="https://raw.githubusercontent.com/MiZhenxing/MiZhenxing.github.io/main/One4D/assets/videos/cut_13.mp4" autoplay loop muted playsinline></video>
-        <br>
-        <strong>Example 5</strong>
-      </div>
-    </td>
-    <td width="50%">
-      </td>
-  </tr>
-</table>
+<div align="center">
+  <video src="https://raw.githubusercontent.com/MiZhenxing/MiZhenxing.github.io/main/One4D/assets/videos/cut_7.mp4" width="48%" autoplay loop muted playsinline></video>
+  <video src="https://raw.githubusercontent.com/MiZhenxing/MiZhenxing.github.io/main/One4D/assets/videos/cut_8.mp4" width="48%" autoplay loop muted playsinline></video>
+  <video src="https://raw.githubusercontent.com/MiZhenxing/MiZhenxing.github.io/main/One4D/assets/videos/cut_11.mp4" width="48%" autoplay loop muted playsinline></video>
+  <video src="https://raw.githubusercontent.com/MiZhenxing/MiZhenxing.github.io/main/One4D/assets/videos/cut_12.mp4" width="48%" autoplay loop muted playsinline></video>
+  <video src="https://raw.githubusercontent.com/MiZhenxing/MiZhenxing.github.io/main/One4D/assets/videos/cut_13.mp4" width="48%" autoplay loop muted playsinline></video>
+</div>
 
 ### 3. Full Video to 4D
 High-fidelity reconstruction from a full video input, ensuring temporal consistency and accurate geometry estimation.
 
-<table width="100%">
-  <tr>
-    <td width="50%">
-      <div align="center">
-        <video src="https://raw.githubusercontent.com/MiZhenxing/MiZhenxing.github.io/main/One4D/assets/videos/cut_9.mp4" autoplay loop muted playsinline></video>
-        <br>
-        <strong>Example 1</strong>
-      </div>
-    </td>
-    <td width="50%">
-      <div align="center">
-        <video src="https://raw.githubusercontent.com/MiZhenxing/MiZhenxing.github.io/main/One4D/assets/videos/cut_10.mp4" autoplay loop muted playsinline></video>
-        <br>
-        <strong>Example 2</strong>
-      </div>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%">
-      <div align="center">
-        <video src="https://raw.githubusercontent.com/MiZhenxing/MiZhenxing.github.io/main/One4D/assets/videos/cut_14.mp4" autoplay loop muted playsinline></video>
-        <br>
-        <strong>Example 3</strong>
-      </div>
-    </td>
-    <td width="50%">
-      <div align="center">
-        <video src="https://raw.githubusercontent.com/MiZhenxing/MiZhenxing.github.io/main/One4D/assets/videos/cut_15.mp4" autoplay loop muted playsinline></video>
-        <br>
-        <strong>Example 4</strong>
-      </div>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%">
-      <div align="center">
-        <video src="https://raw.githubusercontent.com/MiZhenxing/MiZhenxing.github.io/main/One4D/assets/videos/cut_16.mp4" autoplay loop muted playsinline></video>
-        <br>
-        <strong>Example 5</strong>
-      </div>
-    </td>
-    <td width="50%">
-      </td>
-  </tr>
-</table>
+<div align="center">
+  <video src="https://raw.githubusercontent.com/MiZhenxing/MiZhenxing.github.io/main/One4D/assets/videos/cut_9.mp4" width="48%" autoplay loop muted playsinline></video>
+  <video src="https://raw.githubusercontent.com/MiZhenxing/MiZhenxing.github.io/main/One4D/assets/videos/cut_10.mp4" width="48%" autoplay loop muted playsinline></video>
+  <video src="https://raw.githubusercontent.com/MiZhenxing/MiZhenxing.github.io/main/One4D/assets/videos/cut_14.mp4" width="48%" autoplay loop muted playsinline></video>
+  <video src="https://raw.githubusercontent.com/MiZhenxing/MiZhenxing.github.io/main/One4D/assets/videos/cut_15.mp4" width="48%" autoplay loop muted playsinline></video>
+  <video src="https://raw.githubusercontent.com/MiZhenxing/MiZhenxing.github.io/main/One4D/assets/videos/cut_16.mp4" width="48%" autoplay loop muted playsinline></video>
+</div>
 
 ## 📖 BibTeX
 
