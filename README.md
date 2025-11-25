@@ -37,41 +37,34 @@
 </div>
 
 *Figure 2: Comparison of Decoupled LoRA Control against other architectures.*
-
 ## 🎨 Results Showcase
 
 ### 1. Single Image to 4D
-Generating a consistent 4D scene from a single input image, ensuring high-quality RGB frames and consistent geometry for the entire 4D output.
+Generating a consistent 4D scene from a single input image.
 
-<div align="center">
-  <video src="https://raw.githubusercontent.com/MiZhenxing/MiZhenxing.github.io/main/One4D/assets/videos/cut_2.mp4" width="48%" autoplay loop muted playsinline></video>
-  <video src="https://raw.githubusercontent.com/MiZhenxing/MiZhenxing.github.io/main/One4D/assets/videos/cut_6.mp4" width="48%" autoplay loop muted playsinline></video>
-  <video src="https://raw.githubusercontent.com/MiZhenxing/MiZhenxing.github.io/main/One4D/assets/videos/cut_3.mp4" width="48%" autoplay loop muted playsinline></video>
-  <video src="https://raw.githubusercontent.com/MiZhenxing/MiZhenxing.github.io/main/One4D/assets/videos/cut_4.mp4" width="48%" autoplay loop muted playsinline></video>
-  <video src="https://raw.githubusercontent.com/MiZhenxing/MiZhenxing.github.io/main/One4D/assets/videos/cut_5.mp4" width="48%" autoplay loop muted playsinline></video>
-</div>
+* [![Scene 1](https://img.shields.io/badge/▶-Watch_Scene_1-red)](https://raw.githubusercontent.com/MiZhenxing/MiZhenxing.github.io/main/One4D/assets/videos/cut_2.mp4)
+* [![Scene 2](https://img.shields.io/badge/▶-Watch_Scene_2-red)](https://raw.githubusercontent.com/MiZhenxing/MiZhenxing.github.io/main/One4D/assets/videos/cut_6.mp4)
+* [![Scene 3](https://img.shields.io/badge/▶-Watch_Scene_3-red)](https://raw.githubusercontent.com/MiZhenxing/MiZhenxing.github.io/main/One4D/assets/videos/cut_3.mp4)
+* [![Scene 4](https://img.shields.io/badge/▶-Watch_Scene_4-red)](https://raw.githubusercontent.com/MiZhenxing/MiZhenxing.github.io/main/One4D/assets/videos/cut_4.mp4)
+* [![Scene 5](https://img.shields.io/badge/▶-Watch_Scene_5-red)](https://raw.githubusercontent.com/MiZhenxing/MiZhenxing.github.io/main/One4D/assets/videos/cut_5.mp4)
 
 ### 2. Sparse Frames to 4D
-Reconstructing the 4D scene given only a few sparse frames. One4D interpolates the missing information utilizing Unified Masked Conditioning.
+Reconstructing the 4D scene given only a few sparse frames.
 
-<div align="center">
-  <video src="https://raw.githubusercontent.com/MiZhenxing/MiZhenxing.github.io/main/One4D/assets/videos/cut_7.mp4" width="48%" autoplay loop muted playsinline></video>
-  <video src="https://raw.githubusercontent.com/MiZhenxing/MiZhenxing.github.io/main/One4D/assets/videos/cut_8.mp4" width="48%" autoplay loop muted playsinline></video>
-  <video src="https://raw.githubusercontent.com/MiZhenxing/MiZhenxing.github.io/main/One4D/assets/videos/cut_11.mp4" width="48%" autoplay loop muted playsinline></video>
-  <video src="https://raw.githubusercontent.com/MiZhenxing/MiZhenxing.github.io/main/One4D/assets/videos/cut_12.mp4" width="48%" autoplay loop muted playsinline></video>
-  <video src="https://raw.githubusercontent.com/MiZhenxing/MiZhenxing.github.io/main/One4D/assets/videos/cut_13.mp4" width="48%" autoplay loop muted playsinline></video>
-</div>
+* [![Example 1](https://img.shields.io/badge/▶-Watch_Example_1-blue)](https://raw.githubusercontent.com/MiZhenxing/MiZhenxing.github.io/main/One4D/assets/videos/cut_7.mp4)
+* [![Example 2](https://img.shields.io/badge/▶-Watch_Example_2-blue)](https://raw.githubusercontent.com/MiZhenxing/MiZhenxing.github.io/main/One4D/assets/videos/cut_8.mp4)
+* [![Example 3](https://img.shields.io/badge/▶-Watch_Example_3-blue)](https://raw.githubusercontent.com/MiZhenxing/MiZhenxing.github.io/main/One4D/assets/videos/cut_11.mp4)
+* [![Example 4](https://img.shields.io/badge/▶-Watch_Example_4-blue)](https://raw.githubusercontent.com/MiZhenxing/MiZhenxing.github.io/main/One4D/assets/videos/cut_12.mp4)
+* [![Example 5](https://img.shields.io/badge/▶-Watch_Example_5-blue)](https://raw.githubusercontent.com/MiZhenxing/MiZhenxing.github.io/main/One4D/assets/videos/cut_13.mp4)
 
 ### 3. Full Video to 4D
-High-fidelity reconstruction from a full video input, ensuring temporal consistency and accurate geometry estimation.
+High-fidelity reconstruction from a full video input.
 
-<div align="center">
-  <video src="https://raw.githubusercontent.com/MiZhenxing/MiZhenxing.github.io/main/One4D/assets/videos/cut_9.mp4" width="48%" autoplay loop muted playsinline></video>
-  <video src="https://raw.githubusercontent.com/MiZhenxing/MiZhenxing.github.io/main/One4D/assets/videos/cut_10.mp4" width="48%" autoplay loop muted playsinline></video>
-  <video src="https://raw.githubusercontent.com/MiZhenxing/MiZhenxing.github.io/main/One4D/assets/videos/cut_14.mp4" width="48%" autoplay loop muted playsinline></video>
-  <video src="https://raw.githubusercontent.com/MiZhenxing/MiZhenxing.github.io/main/One4D/assets/videos/cut_15.mp4" width="48%" autoplay loop muted playsinline></video>
-  <video src="https://raw.githubusercontent.com/MiZhenxing/MiZhenxing.github.io/main/One4D/assets/videos/cut_16.mp4" width="48%" autoplay loop muted playsinline></video>
-</div>
+* [![Reconstruction 1](https://img.shields.io/badge/▶-Watch_Reconstruction_1-darkgreen)](https://raw.githubusercontent.com/MiZhenxing/MiZhenxing.github.io/main/One4D/assets/videos/cut_9.mp4)
+* [![Reconstruction 2](https://img.shields.io/badge/▶-Watch_Reconstruction_2-darkgreen)](https://raw.githubusercontent.com/MiZhenxing/MiZhenxing.github.io/main/One4D/assets/videos/cut_10.mp4)
+* [![Reconstruction 3](https://img.shields.io/badge/▶-Watch_Reconstruction_3-darkgreen)](https://raw.githubusercontent.com/MiZhenxing/MiZhenxing.github.io/main/One4D/assets/videos/cut_14.mp4)
+* [![Reconstruction 4](https://img.shields.io/badge/▶-Watch_Reconstruction_4-darkgreen)](https://raw.githubusercontent.com/MiZhenxing/MiZhenxing.github.io/main/One4D/assets/videos/cut_15.mp4)
+* [![Reconstruction 5](https://img.shields.io/badge/▶-Watch_Reconstruction_5-darkgreen)](https://raw.githubusercontent.com/MiZhenxing/MiZhenxing.github.io/main/One4D/assets/videos/cut_16.mp4)
 
 ## 📖 BibTeX
 
