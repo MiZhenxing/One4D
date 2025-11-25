@@ -10,8 +10,14 @@
 [![Website](https://img.shields.io/badge/Project-Website-blue)](https://mizhenxing.github.io/One4D/)
 
 <div align="center">
-  <video src="https://raw.githubusercontent.com/MiZhenxing/MiZhenxing.github.io/main/One4D/assets/videos/cut_1.mp4" width="100%" autoplay loop muted></video>
+  <video src="https://github.com/user-attachments/assets/4bcc7f4f-4368-4332-8423-6bd428922448" width="100%" autoplay loop muted></video>
 </div>
+
+
+
+
+
+
 
 ## 📝 Abstract
 
@@ -41,30 +47,59 @@
 
 ### 1. Single Image to 4D
 Generating a consistent 4D scene from a single input image.
-
-* [![Scene 1](https://img.shields.io/badge/▶-Watch_Scene_1-red)](https://raw.githubusercontent.com/MiZhenxing/MiZhenxing.github.io/main/One4D/assets/videos/cut_2.mp4)
-* [![Scene 2](https://img.shields.io/badge/▶-Watch_Scene_2-red)](https://raw.githubusercontent.com/MiZhenxing/MiZhenxing.github.io/main/One4D/assets/videos/cut_6.mp4)
-* [![Scene 3](https://img.shields.io/badge/▶-Watch_Scene_3-red)](https://raw.githubusercontent.com/MiZhenxing/MiZhenxing.github.io/main/One4D/assets/videos/cut_3.mp4)
-* [![Scene 4](https://img.shields.io/badge/▶-Watch_Scene_4-red)](https://raw.githubusercontent.com/MiZhenxing/MiZhenxing.github.io/main/One4D/assets/videos/cut_4.mp4)
-* [![Scene 5](https://img.shields.io/badge/▶-Watch_Scene_5-red)](https://raw.githubusercontent.com/MiZhenxing/MiZhenxing.github.io/main/One4D/assets/videos/cut_5.mp4)
+<div align="center">
+  <video src="https://github.com/user-attachments/assets/e0767b37-3069-4902-a28d-adfdcca0078e" autoplay loop muted playsinline width="100%"></video>
+</div>
+<div align="center">
+  <video src="https://github.com/user-attachments/assets/3b97cafc-acb3-40df-b815-8b39fe84c323" autoplay loop muted playsinline width="100%"></video>
+</div>
+<div align="center">
+  <video src="https://github.com/user-attachments/assets/081b66fa-7e15-42cf-bf73-5cc5353ce039" autoplay loop muted playsinline width="100%"></video>
+</div>
+<div align="center">
+  <video src="https://github.com/user-attachments/assets/4875b35d-d58c-471e-ad66-81f43f2f3337" autoplay loop muted playsinline width="100%"></video>
+</div>
+<div align="center">
+  <video src="https://github.com/user-attachments/assets/5d590675-1b99-4ee2-80a9-1825558b4044" autoplay loop muted playsinline width="100%"></video>
+</div>
 
 ### 2. Sparse Frames to 4D
 Reconstructing the 4D scene given only a few sparse frames.
 
-* [![Example 1](https://img.shields.io/badge/▶-Watch_Example_1-blue)](https://raw.githubusercontent.com/MiZhenxing/MiZhenxing.github.io/main/One4D/assets/videos/cut_7.mp4)
-* [![Example 2](https://img.shields.io/badge/▶-Watch_Example_2-blue)](https://raw.githubusercontent.com/MiZhenxing/MiZhenxing.github.io/main/One4D/assets/videos/cut_8.mp4)
-* [![Example 3](https://img.shields.io/badge/▶-Watch_Example_3-blue)](https://raw.githubusercontent.com/MiZhenxing/MiZhenxing.github.io/main/One4D/assets/videos/cut_11.mp4)
-* [![Example 4](https://img.shields.io/badge/▶-Watch_Example_4-blue)](https://raw.githubusercontent.com/MiZhenxing/MiZhenxing.github.io/main/One4D/assets/videos/cut_12.mp4)
-* [![Example 5](https://img.shields.io/badge/▶-Watch_Example_5-blue)](https://raw.githubusercontent.com/MiZhenxing/MiZhenxing.github.io/main/One4D/assets/videos/cut_13.mp4)
+<div align="center">
+<video src="https://github.com/user-attachments/assets/2915058d-412f-49c0-91e7-06c8bdc98a51" autoplay loop muted playsinline width="100%"></video>
+</div>
+<div align="center">
+<video src="https://github.com/user-attachments/assets/a3ab73c6-4028-4fba-bfef-0e2c2839aab7" autoplay loop muted playsinline width="100%"></video>
+</div>
+<div align="center">
+<video src="https://github.com/user-attachments/assets/49112197-f989-4836-9a7e-165c86a1194b" autoplay loop muted playsinline width="100%"></video>
+</div>
+<div align="center">
+<video src="https://github.com/user-attachments/assets/6ad05f92-5629-4d22-90c9-de17a84881b1" autoplay loop muted playsinline width="100%"></video>
+</div>
+<div align="center">
+<video src="https://github.com/user-attachments/assets/d4799227-ea23-4263-987a-3b22d1603ea5" autoplay loop muted playsinline width="100%"></video>
+</div>
 
 ### 3. Full Video to 4D
 High-fidelity reconstruction from a full video input.
 
-* [![Reconstruction 1](https://img.shields.io/badge/▶-Watch_Reconstruction_1-darkgreen)](https://raw.githubusercontent.com/MiZhenxing/MiZhenxing.github.io/main/One4D/assets/videos/cut_9.mp4)
-* [![Reconstruction 2](https://img.shields.io/badge/▶-Watch_Reconstruction_2-darkgreen)](https://raw.githubusercontent.com/MiZhenxing/MiZhenxing.github.io/main/One4D/assets/videos/cut_10.mp4)
-* [![Reconstruction 3](https://img.shields.io/badge/▶-Watch_Reconstruction_3-darkgreen)](https://raw.githubusercontent.com/MiZhenxing/MiZhenxing.github.io/main/One4D/assets/videos/cut_14.mp4)
-* [![Reconstruction 4](https://img.shields.io/badge/▶-Watch_Reconstruction_4-darkgreen)](https://raw.githubusercontent.com/MiZhenxing/MiZhenxing.github.io/main/One4D/assets/videos/cut_15.mp4)
-* [![Reconstruction 5](https://img.shields.io/badge/▶-Watch_Reconstruction_5-darkgreen)](https://raw.githubusercontent.com/MiZhenxing/MiZhenxing.github.io/main/One4D/assets/videos/cut_16.mp4)
+<div align="center">
+<video src="https://github.com/user-attachments/assets/913a010b-72dc-4d22-b32d-824a9b154d63" autoplay loop muted playsinline width="100%"></video>
+</div>
+<div align="center">
+<video src="https://github.com/user-attachments/assets/9f9bbf06-6ab2-4245-8092-bb0b3de4b716" autoplay loop muted playsinline width="100%"></video>
+</div>
+<div align="center">
+<video src="https://github.com/user-attachments/assets/44047d58-7f83-4b99-b32f-2ffbb3ffddad" autoplay loop muted playsinline width="100%"></video>
+</div>
+<div align="center">
+<video src="https://github.com/user-attachments/assets/79f5068b-0729-4861-bd58-9274586f4ca3" autoplay loop muted playsinline width="100%"></video>
+</div>
+<div align="center">
+<video src="https://github.com/user-attachments/assets/7a1780fc-fe41-4a50-b197-fa9a6a22576c" autoplay loop muted playsinline width="100%"></video>
+</div>
 
 ## 📖 BibTeX
 
