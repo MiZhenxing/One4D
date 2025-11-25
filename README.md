@@ -21,6 +21,10 @@
 
 ### Unified Framework
 
+<div align="center">
+  <img src="https://raw.githubusercontent.com/MiZhenxing/MiZhenxing.github.io/main/One4D/assets/pics/framework.png" width="100%" alt="One4D Framework">
+</div>
+
 *Figure 1: The One4D Unified Framework architecture.*
 
   * **🎛️ Unified Masked Conditioning (UMC):** Enables seamlessly transition between 4D generation from a **single image**, 4D reconstruction from a **full video**, and mixed generation and reconstruction from **sparse frames** using a single unified model.
@@ -28,8 +32,11 @@
 
 ### Architecture Comparison
 
+<div align="center">
+  <img src="https://raw.githubusercontent.com/MiZhenxing/MiZhenxing.github.io/main/One4D/assets/pics/arch_compare.png" width="100%" alt="Architecture Comparison">
+</div>
+
 *Figure 2: Comparison of Decoupled LoRA Control against other architectures.*
-## 🎨 Results Showcase
 ## 🎨 Results Showcase
 
 ### 1. Single Image to 4D
