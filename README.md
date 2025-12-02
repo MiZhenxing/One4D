@@ -21,7 +21,7 @@
 
 ## 📝 Abstract
 
-**One4D** is a unified framework for **4D generation and reconstruction** that can seamlessly transition between 4D generation from a **single image**, 4D reconstruction from a **full video**, and mixed generation and reconstruction from **sparse frames** via **Unified Masked Conditioning (UMC)**. With **Decoupled LoRA Control (DLC)**, which employs two modality-specific LoRA adapters to form decoupled computation branches for RGB frames and pointmaps, connected by lightweight, zero-initialized control links that gradually learn mutual pixel-level consistency, One4D produces high-quality RGB frames and accurate pointmaps across both generation and reconstruction tasks.
+**One4D** is a unified framework for **4D generation and reconstruction** that can seamlessly transition between 4D generation from a **single image**, 4D reconstruction from a **full video**, mixed generation and reconstruction from **sparse frames**, and 4D generation from a **text prompt** via **Unified Masked Conditioning (UMC)**. With **Decoupled LoRA Control (DLC)**, which employs two modality-specific LoRA adapters to form decoupled computation branches for RGB frames and pointmaps, connected by lightweight, zero-initialized control links that gradually learn mutual pixel-level consistency, One4D produces high-quality RGB frames and accurate pointmaps across both generation and reconstruction tasks.
 
 ## 🧠 Methodology
 
@@ -99,6 +99,18 @@ High-fidelity reconstruction from a full video input.
 </div>
 <div align="center">
 <video src="https://github.com/user-attachments/assets/7a1780fc-fe41-4a50-b197-fa9a6a22576c" autoplay loop muted playsinline width="100%"></video>
+</div>
+
+
+### 4. Text to 4D
+Generating a consistent 4D scene from a pure text prompt.
+
+<div align="center">
+<video src="https://github.com/user-attachments/assets/44439ea7-0536-4a5b-b9fd-c56e7b8b7862" autoplay loop muted playsinline width="100%"></video>
+</div>
+
+<div align="center">
+<video src="https://github.com/user-attachments/assets/6ddd0ce6-1b2f-40c1-b913-2dc50608530e" autoplay loop muted playsinline width="100%"></video>
 </div>
 
 ## 📖 BibTeX
